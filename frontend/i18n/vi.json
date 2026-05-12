@@ -1,0 +1,64 @@
+{
+  "app": {
+    "name": "RoomBook",
+    "title": "RoomBook Dashboard"
+  },
+  "nav": {
+    "browseRooms": "Duyệt phòng",
+    "myBookings": "Đặt phòng của tôi",
+    "availability": "Lịch trống",
+    "settings": "Cài đặt hồ sơ",
+    "calendar": "Lịch"
+  },
+  "sidebar": {
+    "title": "Điều hướng RoomBook",
+    "availableRooms": "Các phòng hiện có"
+  },
+  "room": {
+    "selectPrompt": "Chọn một phòng từ thanh bên để xem đặt phòng.",
+    "bookedBadge": "Đã đặt",
+    "location": "Tòa nhà HQ • Cánh Tây",
+    "capacity": "Sức chứa: {{count}}",
+    "amenityProjector": "Máy chiếu",
+    "amenityWhiteboard": "Bảng trắng",
+    "roomsLabel": "Phòng",
+    "imageCaption": "Bên trong {{name}}",
+    "imageAmenities": "Wi-Fi tốc độ cao • Màn hình 4K • Điều hòa nhiệt độ"
+  },
+  "booking": {
+    "currentBookings": "Đặt phòng hiện tại",
+    "newBooking": "Đặt phòng mới",
+    "dateRangeLabel": "Khoảng thời gian",
+    "dateRangePlaceholder": "Chọn ngày đặt phòng",
+    "noBookings": "Chưa có đặt phòng nào cho phòng này.",
+    "userNameLabel": "Tên người dùng",
+    "userNamePlaceholder": "Tên của bạn",
+    "startTimeLabel": "Giờ bắt đầu",
+    "endTimeLabel": "Giờ kết thúc",
+    "notesLabel": "Tiêu đề / Ghi chú cuộc họp",
+    "notesPlaceholder": "Mô tả ngắn về cuộc họp",
+    "createButton": "Tạo đặt phòng",
+    "checkAvailability": "Kiểm tra lịch trống",
+    "roomCurrentlyBooked": "Phòng này hiện đang được đặt và không nhận đặt phòng mới.",
+    "infoNote": "Đặt phòng sẽ được ghi lại cho người dùng đã chọn.",
+    "deleteSuccess": "Đã xóa đặt phòng",
+    "deleteError": "Không thể xóa đặt phòng",
+    "createError": "Có lỗi xảy ra",
+    "deleteConfirmTitle": "Xóa đặt phòng?",
+    "deleteConfirmMessage": "Bạn có chắc muốn xóa đặt phòng cho {{roomName}}? Hành động này không thể hoàn tác.",
+    "deleteButton": "Xóa",
+    "cancelButton": "Hủy"
+  },
+  "common": {
+    "loading": "Đang tải..."
+  },
+  "validation": {
+    "nameRequired": "Tên là bắt buộc",
+    "dateRangeRequired": "Vui lòng chọn khoảng thời gian",
+    "nameTooShort": "Tên phải có ít nhất 2 ký tự",
+    "startTimeRequired": "Giờ bắt đầu là bắt buộc",
+    "startTimePast": "Giờ bắt đầu phải trong tương lai",
+    "endTimeRequired": "Giờ kết thúc là bắt buộc",
+    "endTimeBeforeStart": "Giờ kết thúc phải sau giờ bắt đầu"
+  }
+}

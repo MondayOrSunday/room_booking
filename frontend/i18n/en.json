@@ -1,0 +1,64 @@
+{
+  "app": {
+    "name": "RoomBook",
+    "title": "RoomBook Dashboard"
+  },
+  "nav": {
+    "browseRooms": "Browse Rooms",
+    "myBookings": "My Bookings",
+    "availability": "Availability",
+    "settings": "Profile Settings",
+    "calendar": "Calendar"
+  },
+  "sidebar": {
+    "title": "RoomBook Navigation",
+    "availableRooms": "Available Rooms"
+  },
+  "room": {
+    "selectPrompt": "Select a room from the sidebar to view bookings.",
+    "bookedBadge": "Booked",
+    "location": "HQ Building • West Wing",
+    "capacity": "Capacity: {{count}}",
+    "amenityProjector": "Projector Available",
+    "amenityWhiteboard": "Whiteboard",
+    "roomsLabel": "Rooms",
+    "imageCaption": "Inside {{name}}",
+    "imageAmenities": "High-speed Wi-Fi • 4K Display • Climate Control"
+  },
+  "booking": {
+    "currentBookings": "Current Bookings",
+    "newBooking": "New Booking",
+    "dateRangeLabel": "Booking Range",
+    "dateRangePlaceholder": "Select booking dates",
+    "noBookings": "No bookings yet for this room.",
+    "userNameLabel": "User Name",
+    "userNamePlaceholder": "Your name",
+    "startTimeLabel": "Start Time",
+    "endTimeLabel": "End Time",
+    "notesLabel": "Booking Title / Notes",
+    "notesPlaceholder": "Brief description of the meeting",
+    "createButton": "Create Booking",
+    "checkAvailability": "Check Availability Grid",
+    "roomCurrentlyBooked": "This room is currently booked and unavailable for new reservations.",
+    "infoNote": "Booking will be recorded for the selected user.",
+    "deleteSuccess": "Booking deleted",
+    "deleteError": "Failed to delete booking",
+    "createError": "Something went wrong",
+    "deleteConfirmTitle": "Delete Booking?",
+    "deleteConfirmMessage": "Are you sure you want to delete this booking for {{roomName}}? This action cannot be undone.",
+    "deleteButton": "Delete",
+    "cancelButton": "Cancel"
+  },
+  "common": {
+    "loading": "Loading..."
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "dateRangeRequired": "Please select a date range",
+    "nameTooShort": "Name must be at least 2 characters",
+    "startTimeRequired": "Start time is required",
+    "startTimePast": "Start time must be in the future",
+    "endTimeRequired": "End time is required",
+    "endTimeBeforeStart": "End time must be after start time"
+  }
+}
